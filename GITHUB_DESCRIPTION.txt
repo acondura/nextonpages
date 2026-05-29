@@ -1,0 +1,9 @@
+Short (one-line) suggestions:
+- Next.js scaffold for Cloudflare Pages (Edge) using @cloudflare/next-on-pages
+- Minimal Next.js starter configured to deploy to Cloudflare Pages (Edge)
+
+Compact (1–2 sentence) description:
+A minimal Next.js project scaffold configured to build and run on Cloudflare Pages (Edge) using the @cloudflare/next-on-pages adapter. Includes example pages, an API route, build and pages packaging scripts, and a wrangler.toml for easy deployment.
+
+Longer (README/landing) blurb:
+This repository demonstrates how to package and deploy a Next.js application to Cloudflare Pages using the @cloudflare/next-on-pages adapter. It provides a small example app (pages/index.js), an API route (pages/api/hello.js), build scripts (npm run build and npm run pages:build) that produce a Cloudflare Pages output directory (./cloudflare-pages), and a basic wrangler.toml to simplify Pages deployments. Use it as a baseline to add edge-friendly features and CI/CD deployment workflows.
